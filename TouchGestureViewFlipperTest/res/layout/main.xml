@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_flipper"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <include android:layout_width="wrap_content" android:id="@+id/include2" layout="@layout/first" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></include>
+    <include android:layout_width="wrap_content" android:id="@+id/include1" layout="@layout/second" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></include>
+</ViewFlipper>

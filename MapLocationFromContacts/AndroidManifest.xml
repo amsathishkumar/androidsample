@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="course.examples.SimpleActivity">
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <application>
+        <activity android:name="MapLocation" android:label="Map A Location">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 
